@@ -7,6 +7,8 @@ sbt new forthy/finatra.g8
 [License](./LICENSE)
 
 # Notes
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJamesJJ%2Ffinatra.g8.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FJamesJJ%2Ffinatra.g8?ref=badge_shield)
+
 
 Giter8 will apply templating to the contents of `src/main/g8`, using the `default.properties` file within that directory as the prompts for templating.
 
@@ -19,3 +21,7 @@ Giter8 also supports scaffolding using the *sbt-giter8-scaffold* plugin. There a
     For example a template defined with `controlers/src/main/scala/$name$.scala` and `name=plugin` will result in the output `plugin/controlers/src/main/scala/plugin.scala`. This can be unintuitive, which is why it's documented here
 
 Any files you *don't* want to have templating applied against can be defined in `default.properties` as regex in the space-delimited `verbatim` prompt.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJamesJJ%2Ffinatra.g8.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FJamesJJ%2Ffinatra.g8?ref=badge_large)
